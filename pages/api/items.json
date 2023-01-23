@@ -1,7 +1,8 @@
 [
     {
         "id": 1,
-        "name": "play",
+        "name": "4am",
+        "price": "0.01",
         "description": "2022",
         "filename": "4am.zip",
         "hash": "QmPBXFGGYoikAmawvw4MSEnm84meRdbjwUkMcBkQdVYVV1"

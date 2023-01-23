@@ -1,11 +1,12 @@
 import React from "react";
 import IPFSDownload from "./IpfsDownload";
 import styles from "../styles/Item.module.css";
+import Buy from "./Buy";
 
 
 // display items
 export default function Item ({ item }) {
-    const { id, name, description, image_url } = item;
+    const { id, name, price, description, image_url } = item;
 
     return(
         <div className= {styles.item_container}>
@@ -20,7 +21,8 @@ export default function Item ({ item }) {
                 </div>
 
                 <div className={styles.item_action}>
-                    <IPFSDownload filename="4am.zip" hash = "QmPBXFGGYoikAmawvw4MSEnm84meRdbjwUkMcBkQdVYVV1" cta="music"/>
+                    <div classname={styles.item_price}>{price} USDC </div>
+                        <Buy itemID={id} />
                 </div>
             </div>
         </div>
