@@ -60,7 +60,7 @@ const WalletMultiButtonDynamic = dynamic(
       <div className="container">
         <header className="header-container">
           <p className="header"> Yooo! </p>
-          <p className="sub-text"> testing... connect key </p>
+          <p className="sub-text"> testing devnet...connect key for access </p>
         </header>
 
         <main>

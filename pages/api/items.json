@@ -2,11 +2,19 @@
     {
         "id": 1,
         "name": "4am",
-        "price": "0.01",
-        "description": "2022",
+        "price": "0.00",
+        "description": "studying",
         "filename": "4am.zip",
         "hash": "QmPBXFGGYoikAmawvw4MSEnm84meRdbjwUkMcBkQdVYVV1"
-    }
+    },
 
+    {
+        "id": 1,
+        "name": "talk(2022)",
+        "price": "0.00",
+        "description": "remixed khalid",
+        "filename": "talk.zip",
+        "hash": "QmVNjf2rDPMJjc8XrVdF4V3ekjRJQ2hAWCBTTRwWDYUmHY"
+    }
 ]
 

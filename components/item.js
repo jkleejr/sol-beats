@@ -21,7 +21,7 @@ export default function Item ({ item }) {
                 </div>
 
                 <div className={styles.item_action}>
-                    <div classname={styles.item_price}>{price} USDC </div>
+                    <div classname={styles.item_price}>{price} SOL </div>
                         <Buy itemID={id} />
                 </div>
             </div>
