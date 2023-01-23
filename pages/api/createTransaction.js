@@ -8,7 +8,7 @@ import {
     LAMPORTS_PER_SOL,
 } from "@solana/web3.js";
 import BigNumber from "bignumber.js";
-import products from "./products.json";
+import items from "./items.json";
 
 const sellerAddress = ""
 const sellerPublicKey = new PublicKey(sellerAddress);
